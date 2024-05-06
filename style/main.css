@@ -1,0 +1,39 @@
+div form span{
+    color: red;
+    font-size: 0.6rem;
+}
+
+div span{
+    color: black;
+    font-size: 0.6rem;
+    margin: 0;
+    padding: 0;
+}
+div form{
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+.d-container{
+    display: block;
+}
+.d-table{
+    /* display: grid; */
+    align-content: space-between;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+th{
+    background-color: rgba(65, 61, 61, 0.226);
+    border: 1px solid black;
+    padding: 0;
+}
+ td{
+    border: 1px solid black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}

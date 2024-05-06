@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+    <title>Ejercicio 20</title>
+</head>
+
+<body>
+    <div id="formularioContainer" class="d-container">
+        <form id="formulario">
+            <input type="text" id="nombre" placeholder="Nombre">
+            <span id="nombreError" class="error-message"></span>
+            <input type="email" id="correo" placeholder="Correo electrónico">
+            <span id="correoError" class="error-message"></span>
+            <input type="password" id="contraseña" placeholder="Contraseña">
+            <span id="contraseñaError" class="error-message"></span>
+            <button type="submit" id="registrarBtn">Registrar Usuario</button>
+        </form>
+    </div>
+    <div>
+        <span>La contraseña debe contener:</span><br>
+        <span> * 8 caracteres</span><br>
+        <span> * una letra mayúscula</span><br>
+        <span> * una letra minúscula </span><br>
+        <span> * un número.</span>
+    </div>
+
+</body>
+<script src="/js/api.js" defer></script>
+
+</html>
